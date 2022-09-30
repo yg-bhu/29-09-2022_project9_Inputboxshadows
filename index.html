@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project_16</title>
+
+    <style>
+        .grid{
+            display: grid;
+            grid-template-columns: auto auto auto;
+        }
+
+        .grid1{
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+        }
+
+        .ic1{
+            width: 250px;
+            height: 30px;
+            border: 3px solid grey;
+        }
+
+        .ic2{
+            width: 250px;
+            border-radius: 5px;
+            height: 30px;
+            border: 3px solid grey;
+        }
+
+        .ic3{
+            width: 250px;
+            border-radius: 50px;
+            height: 30px;
+            border: 3px solid grey;
+        }
+
+        .ir3{
+            background-color: #efe6e6;
+        }
+
+        .ir4{
+            width: 190px;
+            height: 30px;
+            border-top: 0px;
+            border-right: 0px;
+            border-left: 0px;
+        }
+
+        .ir5{
+            width: 190px;
+            height: 30px;
+            border: 3px solid grey;
+            
+        }
+
+        .main{
+            margin: 200px;
+        }
+
+        h2{
+            color: grey;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="main">
+        
+        <!--item1-->
+        <div>
+            <h2 align = "center">
+                Basic input text box with outer shadow
+            </h2>
+            <div class="grid">
+                <input  class="ic1" placeholder="DD - Design Drastic" type="text">
+                <input  class="ic2" placeholder="DD - Design Drastic" type="text">
+                <input  class="ic3" placeholder="DD - Design Drastic" type="text">
+        </div>
+            
+        <div>
+            <h2 align = "center">
+                Basic input text box with inner shadow
+            </h2>
+            <div class="grid">
+                <input  class="ic1" placeholder="DD - Design Drastic" type="text">
+                <input  class="ic2" placeholder="DD - Design Drastic" type="text">
+                <input  class="ic3" placeholder="DD - Design Drastic" type="text">
+        </div>
+
+        <hr>
+
+        <!--item2--------------------------------------------------------------------------------------------------->
+        <div>
+            <h2 align = "center">
+                Spread shadow on focus
+            </h2>
+            <div class="grid">
+                <input  class="ic1 ir3" placeholder="DD - Design Drastic" type="text">
+                <input  class="ic2 ir3" placeholder="DD - Design Drastic" type="text">
+                <input  class="ic3 ir3" placeholder="DD - Design Drastic" type="text">
+        </div>
+        
+        <div>
+            <h2 align = "center">
+                Border bottom effects
+            </h2>
+            <div class="grid1">
+                <input  class="ir4" placeholder="DD - Design Drastic" type="text">
+                <input  class="ir4" placeholder="DD - Design Drastic" type="text">
+                <input  class="ir4" placeholder="DD - Design Drastic" type="text">
+                <input  class="ir4" placeholder="DD - Design Drastic" type="text">
+        </div>
+
+        <hr>
+
+        <!--item3--------------------------------------------------------------------------------------------------->
+
+        <div>
+            <h2 align = "center">
+                Border (all 4 borders) animations
+            </h2>
+            <div class="grid1">
+                <input  class="ir5" placeholder="DD - Design Drastic" type="text">
+                <input  class="ir5" placeholder="DD - Design Drastic" type="text">
+                <input  class="ir5" placeholder="DD - Design Drastic" type="text">
+                <input  class="ir5" placeholder="DD - Design Drastic" type="text">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
